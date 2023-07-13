@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/searchwhere_ly" android:background="#ff181d18" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ads">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:weightSum="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:weightSum="1.0">
+                <EditText android:textColor="#ffe9f8fb" android:textColorHint="#ff9fa3a6" android:id="@id/playername" android:background="#ff000000" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:layout_marginRight="1.0dip" android:hint="@string/swhere_004" android:layout_weight="0.75" android:inputType="text" android:imeOptions="actionSearch" />
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ff1b1d1f" android:gravity="center" android:id="@id/search_button" android:background="@layout/commbtn" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="5.0dip" android:text="@string/comm_008" android:layout_weight="0.25" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:background="#ff5f5f5f" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:weightSum="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/swhere_005" android:layout_weight="0.15" />
+                <TableLayout android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.85">
+                    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/season23" android:tag="23" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <ImageView android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/s23" android:layout_weight="0.4" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/season10" android:tag="10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <ImageView android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/s10" android:layout_weight="0.4" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/season09" android:tag="9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <ImageView android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/s09" android:layout_weight="0.4" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/season08" android:tag="8" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <ImageView android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/s08" android:layout_weight="0.4" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:weightSum="1.0">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/season07" android:tag="7" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <ImageView android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/s07" android:layout_weight="0.4" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/season06" android:tag="6" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <ImageView android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/s06" android:layout_weight="0.4" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/season91" android:tag="91" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <ImageView android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/s91" android:layout_weight="0.4" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/season95" android:tag="95" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <ImageView android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/s95" android:layout_weight="0.4" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:weightSum="1.0">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/season77" android:tag="77" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <ImageView android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/s77" android:layout_weight="0.4" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/season00" android:tag="-1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <ImageView android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/s00" android:layout_weight="0.4" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/season0" android:tag="0" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <ImageView android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/s0" android:layout_weight="0.4" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/season13" android:tag="13" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <ImageView android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/s13" android:layout_weight="0.4" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:weightSum="1.0">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/season12" android:tag="12" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <ImageView android:paddingTop="1.0dip" android:paddingRight="5.0dip" android:paddingBottom="1.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/s12" android:layout_weight="0.4" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:background="#ff5f5f5f" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:weightSum="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="FW" android:layout_weight="0.15" />
+                <TableLayout android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.85">
+                    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position27" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="LW" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.2">
+                            <CheckBox android:id="@id/position26" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="LS" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position25" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="ST" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.2">
+                            <CheckBox android:id="@id/position24" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="RS" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position23" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="RW" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position22" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="LF" android:layout_weight="0.6" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:weightSum="1.0">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position21" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="CF" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position20" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="RF" android:layout_weight="0.6" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:weightSum="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="MF" android:layout_weight="0.15" />
+                <TableLayout android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.85">
+                    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.2">
+                            <CheckBox android:id="@id/position19" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textSize="3.0pt" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="LCAM" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position18" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="CAM" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.2">
+                            <CheckBox android:id="@id/position17" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textSize="3.0pt" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="RCAM" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.2">
+                            <CheckBox android:id="@id/position15" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textSize="5.0pt" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="LCM" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position16" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="LM" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position14" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="CM" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position12" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="RM" android:layout_weight="0.6" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:weightSum="1.0">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="CDM" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.2">
+                            <CheckBox android:id="@id/position13" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textSize="5.0pt" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="RCM" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.2">
+                            <CheckBox android:id="@id/position11" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textSize="3.0pt" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="LCDM" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.2">
+                            <CheckBox android:id="@id/position9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textSize="3.0pt" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="RCDM" android:layout_weight="0.6" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:weightSum="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="DF" android:layout_weight="0.15" />
+                <TableLayout android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.85">
+                    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position8" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="LWB" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position7" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="LB" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.2">
+                            <CheckBox android:id="@id/position6" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textSize="5.0pt" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="LCB" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="CB" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.2">
+                            <CheckBox android:id="@id/position4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textSize="5.0pt" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="RCB" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="RB" android:layout_weight="0.6" />
+                        </LinearLayout>
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:weightSum="1.0">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="RWB" android:layout_weight="0.6" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="SW" android:layout_weight="0.6" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:weightSum="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="GK" android:layout_weight="0.15" />
+                <TableLayout android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.85">
+                    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="0.25">
+                            <CheckBox android:id="@id/position0" android:layout_width="0.0dip" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:layout_weight="0.4" />
+                            <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="GK" android:layout_weight="0.6" />
+                        </LinearLayout>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:background="#ff5f5f5f" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:weightSum="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center" android:id="@id/ovrText" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/swhere_006" android:layout_weight="0.2" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.8">
+                    <LinearLayout android:orientation="horizontal" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:weightSum="1.0">
+                        <EditText android:textColor="#ffe9f8fb" android:textColorHint="#ff9fa3a6" android:gravity="center" android:id="@id/ovrup" android:background="#ff000000" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="" android:maxLength="3" android:layout_weight="0.2" android:inputType="number" android:imeOptions="actionDone" />
+                        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="left|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/swhere_007" android:layout_weight="0.3" />
+                        <EditText android:textColor="#ffe9f8fb" android:textColorHint="#ff9fa3a6" android:gravity="center" android:id="@id/ovrdown" android:background="#ff000000" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="" android:maxLength="3" android:layout_weight="0.2" android:inputType="number" android:imeOptions="actionDone" />
+                        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="left|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/swhere_008" android:layout_weight="0.3" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:background="#ff5f5f5f" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:weightSum="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/swhere_009" android:layout_weight="0.2" />
+                <Spinner android:textColor="#ffe9f8fb" android:layout_gravity="right" android:id="@id/foot_sp" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:background="#ff5f5f5f" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:weightSum="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/swhere_010" android:layout_weight="0.2" />
+                <Spinner android:textColor="#ffe9f8fb" android:layout_gravity="right" android:id="@id/skill_sp" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:background="#ff5f5f5f" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:weightSum="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/swhere_011" android:layout_weight="0.2" />
+                <Spinner android:textColor="#ffe9f8fb" android:layout_gravity="right" android:id="@id/league_sp" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="5.0dip" android:weightSum="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/swhere_012" android:layout_weight="0.2" />
+                <Spinner android:textColor="#ffe9f8fb" android:gravity="right" android:id="@id/team_sp" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:background="#ff5f5f5f" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:weightSum="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/swhere_013" android:layout_weight="0.2" />
+                <Spinner android:textColor="#ffe9f8fb" android:layout_gravity="right" android:id="@id/nation_sp" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" />
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:background="#ff5f5f5f" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:weightSum="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/swhere_014" android:layout_weight="0.2" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.8">
+                    <LinearLayout android:orientation="horizontal" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:weightSum="1.0">
+                        <EditText android:textColor="#ffe9f8fb" android:textColorHint="#ff9fa3a6" android:gravity="center" android:id="@id/heightup" android:background="#ff000000" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="" android:maxLength="3" android:layout_weight="0.2" android:inputType="number" android:imeOptions="actionDone" />
+                        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="left|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/swhere_015" android:layout_weight="0.3" />
+                        <EditText android:textColor="#ffe9f8fb" android:textColorHint="#ff9fa3a6" android:gravity="center" android:id="@id/heightdown" android:background="#ff000000" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="" android:maxLength="3" android:layout_weight="0.2" android:inputType="number" android:imeOptions="actionDone" />
+                        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="left|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/swhere_016" android:layout_weight="0.3" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:background="#ff5f5f5f" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:weightSum="1.0">
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/swhere_017" android:layout_weight="0.2" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.8">
+                    <LinearLayout android:orientation="horizontal" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:weightSum="1.0">
+                        <EditText android:textColor="#ffe9f8fb" android:textColorHint="#ff9fa3a6" android:gravity="center" android:id="@id/weighttup" android:background="#ff000000" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="" android:maxLength="3" android:layout_weight="0.2" android:inputType="number" android:imeOptions="actionDone" />
+                        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="left|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/swhere_018" android:layout_weight="0.3" />
+                        <EditText android:textColor="#ffe9f8fb" android:textColorHint="#ff9fa3a6" android:gravity="center" android:id="@id/weightdown" android:background="#ff000000" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:text="" android:maxLength="3" android:layout_weight="0.2" android:inputType="number" android:imeOptions="actionDone" />
+                        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffe9f8fb" android:gravity="left|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/swhere_019" android:layout_weight="0.3" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:background="#ff5f5f5f" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:weightSum="1.0">
+                <TextView android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.75" />
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ff1b1d1f" android:gravity="center" android:id="@id/reset_button" android:background="@layout/commbtn" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="5.0dip" android:text="@string/swhere_020" android:layout_weight="0.25" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.mocoplex.adlib.AdlibAdViewContainer android:id="@id/ads" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

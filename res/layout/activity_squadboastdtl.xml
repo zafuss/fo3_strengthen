@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff181d18" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/myteam_top_ly" android:background="#ff151415" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:weightSum="1.0" android:layout_weight="0.4">
+            <ImageView android:id="@id/myteam_emblem" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.8" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="1.0" android:layout_weight="0.2">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff1b1d1f" android:gravity="center" android:id="@id/myteam_score" android:background="@layout/commbtn" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="1.0dip" android:layout_weight="0.5" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff1b1d1f" android:gravity="center" android:id="@id/myteam_cmtcnt" android:background="@layout/commbtn" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:weightSum="1.0" android:layout_weight="0.6">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="1.0" android:layout_weight="0.25">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/myteam_leaguename" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="" android:layout_weight="0.7" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff1b1d1f" android:gravity="center" android:id="@id/myteam_squad" android:background="@layout/commbtn" android:padding="2.0dip" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sbdtl_006" android:layout_weight="0.26" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="1.0" android:layout_weight="0.25">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/myteam_teamname" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="" android:layout_weight="0.7" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff1b1d1f" android:gravity="center" android:id="@id/myteam_info" android:background="@layout/commbtn" android:padding="2.0dip" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/sbdtl_007" android:layout_weight="0.26" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="3.0" android:layout_weight="0.5">
+                <LinearLayout android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="1.0" android:layout_weight="1.0">
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="FW" android:layout_weight="0.2" />
+                    <LinearLayout android:background="#ff505050" android:layout_width="0.0dip" android:layout_height="fill_parent" android:weightSum="140.0" android:layout_weight="0.6">
+                        <TextView android:id="@id/myteam_fw" android:background="#ffff0000" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+                    </LinearLayout>
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/myteam_fwtxt" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="0" android:layout_weight="0.2" />
+                </LinearLayout>
+                <LinearLayout android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="1.0" android:layout_weight="1.0">
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="MF" android:layout_weight="0.2" />
+                    <LinearLayout android:background="#ff505050" android:layout_width="0.0dip" android:layout_height="fill_parent" android:weightSum="140.0" android:layout_weight="0.6">
+                        <TextView android:id="@id/myteam_mf" android:background="#ff32cd32" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+                    </LinearLayout>
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/myteam_mftxt" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="0" android:layout_weight="0.2" />
+                </LinearLayout>
+                <LinearLayout android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="1.0" android:layout_weight="1.0">
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="DF" android:layout_weight="0.2" />
+                    <LinearLayout android:background="#ff505050" android:layout_width="0.0dip" android:layout_height="fill_parent" android:weightSum="140.0" android:layout_weight="0.6">
+                        <TextView android:id="@id/myteam_df" android:background="#ff0064ff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+                    </LinearLayout>
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/myteam_dftxt" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="0" android:layout_weight="0.2" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/priceLayout" android:background="#ff151415" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_below="@id/myteam_top_ly">
+        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ff1b1d1f" android:gravity="center" android:id="@id/getPrice" android:background="@layout/commbtn" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/comm_016" />
+        <TextView android:textAppearance="?android:textAppearanceMediumInverse" android:textColor="#ffffffff" android:gravity="right|center" android:id="@id/price" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ListView android:id="@id/myteam_listview" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffffffff" android:dividerHeight="0.0px" android:layout_above="@id/ads" android:layout_below="@id/priceLayout" android:layout_centerVertical="true" android:splitMotionEvents="false" />
+    <com.mocoplex.adlib.AdlibAdViewContainer android:id="@id/ads" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

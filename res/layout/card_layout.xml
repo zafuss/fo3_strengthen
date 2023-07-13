@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="200.0dip" android:layout_height="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/runtop" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="1.0" android:layout_weight="0.15">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="1.0" android:layout_weight="1.0">
+                <TextView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1" />
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textStyle="bold" android:textColor="#ffff0000" android:gravity="bottom|left|center" android:id="@id/position" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.4" />
+                <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="bottom|right|center" android:id="@id/ovr" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.4" />
+                <TextView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.1" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/body" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.6">
+            <ImageView android:layout_gravity="center" android:id="@id/playerimg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/runbottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="1.0" android:layout_weight="0.2">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="1.0" android:layout_weight="0.2" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:gravity="center_vertical" android:id="@id/season" android:layout_width="12.0dip" android:layout_height="fill_parent" android:layout_marginRight="7.0dip" android:scaleType="fitCenter" />
+                <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:gravity="center_vertical" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

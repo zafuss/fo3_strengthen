@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#e7000000" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="400.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLargeInverse" android:textColor="#ffffffff" android:gravity="center" android:paddingTop="7.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/main_005" />
+    <LinearLayout android:orientation="horizontal" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="90.0dip" android:weightSum="1.0">
+        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffffffff" android:gravity="center" android:background="#ff181d18" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/main_006" android:layout_weight="0.3" />
+        <LinearLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:weightSum="1.0" android:layout_weight="0.7">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="1.0" android:layout_weight="0.6">
+                <Spinner android:textAppearance="?android:textAppearanceSmallInverse" android:layout_gravity="center" android:id="@id/levelList" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.7" />
+                <Button android:textAppearance="?android:textAppearanceSmallInverse" android:layout_gravity="center" android:id="@id/levelSave" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/comm_004" android:layout_weight="0.3" />
+            </LinearLayout>
+            <TextView android:textSize="10.0dip" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/main_007" android:layout_weight="0.4" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:padding="2.0dip" android:layout_width="fill_parent" android:layout_height="35.0dip" android:weightSum="1.0">
+        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffffffff" android:gravity="center" android:background="#ff181d18" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/main_008" android:layout_weight="0.3" />
+        <TextView android:textAppearance="?android:textAppearanceSmallInverse" android:textColor="#ffffffff" android:gravity="center" android:autoLink="email" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="hsjapps@gmail.com" android:layout_weight="0.7" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+        <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.3" />
+        <Button android:textAppearance="?android:textAppearanceSmallInverse" android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/comm_005" android:layout_weight="0.4" />
+    </LinearLayout>
+</LinearLayout>

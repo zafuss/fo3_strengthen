@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="91" android:versionName="2.0 Special" package="com.hong.fo3c"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/appicon2" android:allowBackup="true" android:hardwareAccelerated="true">
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.mocoplex.adlib.AdlibDialogActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:name="com.mocoplex.adlib.AdlibWebBrowserActivity" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:name="com.mocoplex.adlib.AdlibVideoPlayer" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name="com.hong.fo3c.activity.MainActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.SearchActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.ConsolidationActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.RunActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.InfoActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.PackActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.TradeActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.TradeRunActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:label="@string/app_name" android:name=".activity.PlayerInfoActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.MyTeamActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.SquadActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.SquadBoastActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.SquadBoastDtlActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.SquadBoastSqdActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.SquadBoastCommentActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.FreeBoardActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.FreeBoardDtlActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.SearchWhereActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.SquadBoastCmtActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:name=".activity.NominationActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:label="@string/app_name" android:name=".activity.NominationSelectActivity" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation" />
+    </application>
+</manifest>

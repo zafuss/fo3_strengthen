@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff181d18" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/commentList" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffffffff" android:dividerHeight="0.0px" android:layout_above="@id/squadboastBottom" android:layout_centerVertical="true" android:splitMotionEvents="false" />
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/squadboastBottom" android:background="#ff151415" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/ads">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff1b1d1f" android:gravity="center" android:layout_gravity="right" android:id="@id/addCmt" android:background="@layout/commbtn" android:padding="6.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:text="@string/commu_014" />
+    </LinearLayout>
+    <com.mocoplex.adlib.AdlibAdViewContainer android:id="@id/ads" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

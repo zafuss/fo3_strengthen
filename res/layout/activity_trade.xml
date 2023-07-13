@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/trade_ly" android:background="#ff181d18" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/trade_listView1" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffffffff" android:dividerHeight="0.0px" android:layout_above="@id/trade_confirm" android:layout_centerVertical="true" android:splitMotionEvents="false" />
+    <LinearLayout android:orientation="vertical" android:id="@id/trade_confirm" android:background="#ff151415" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/ads">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5">
+                <TextView android:textSize="6.0pt" android:textColor="#ffffffff" android:paddingLeft="3.0dip" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/trade_002" />
+                <TextView android:textSize="6.0pt" android:textColor="#ffffffff" android:gravity="left" android:paddingLeft="3.0dip" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/trade_003" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.5">
+                <TextView android:textSize="6.0pt" android:textColor="#ffffffff" android:gravity="right" android:paddingLeft="2.0dip" android:paddingTop="6.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/trade_004" />
+                <TextView android:textSize="6.0pt" android:textColor="#ffffffff" android:gravity="right" android:paddingLeft="2.0dip" android:paddingTop="2.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/trade_005" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/trade_ok" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@layout/tradebutton" />
+            <ImageView android:id="@id/trade_delete" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@layout/deletebutton" android:layout_toLeftOf="@id/trade_alldelete" />
+            <ImageView android:id="@id/trade_alldelete" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@layout/deleteallbutton" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.mocoplex.adlib.AdlibAdViewContainer android:id="@id/ads" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

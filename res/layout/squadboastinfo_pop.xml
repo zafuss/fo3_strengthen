@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="400.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="200.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ffffffff" android:id="@id/title" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffd700" android:gravity="right" android:id="@id/username" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:gravity="right" android:id="@id/indt" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5" />
+    </LinearLayout>
+    <Button android:layout_gravity="center" android:id="@id/ok" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/comm_005" />
+</LinearLayout>

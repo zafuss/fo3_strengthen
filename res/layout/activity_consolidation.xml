@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/consolidation_ly" android:background="#ff181d18" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/consolidation_listView1" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ffffffff" android:dividerHeight="0.0px" android:layout_above="@id/consolidation_confirm" android:layout_centerVertical="true" android:splitMotionEvents="false" />
+    <RelativeLayout android:id="@id/consolidation_confirm" android:background="#ff151415" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/ads">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff1b1d1f" android:gravity="center" android:id="@id/consolidation_ok" android:background="@layout/commbtn" android:paddingLeft="30.0dip" android:paddingTop="6.0dip" android:paddingRight="30.0dip" android:paddingBottom="6.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cons_000" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="#ff1b1d1f" android:gravity="center" android:id="@id/consolidation_playerinfo" android:background="@layout/commbtn" android:paddingLeft="2.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:drawableLeft="@*android:drawable/ic_menu_search" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <com.mocoplex.adlib.AdlibAdViewContainer android:id="@id/ads" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>
